@@ -1,4 +1,4 @@
-stickish
+Stickish
 ========
 
 Instagram Sticky Header for Web
@@ -16,6 +16,8 @@ Instagram Sticky Header for Web
     <link href="path_to/stickish.css" rel="stylesheet">
 
 ##Settings:
+
+stickies: declare custom class name for elements you want to behave like instagram sticky headers.
     
     $('.stickish-item').stickish({
         stickies: '.CLASS_NAME_OF_THE_ELEMENT_OF_YOU_KNOW_YOU_WANT_TO'
