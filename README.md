@@ -17,10 +17,10 @@ Instagram Sticky Header for Web
 
 ##Settings:
 
-stickies: declare custom class name for elements you want to behave like instagram sticky headers.
+sticky: declare custom class name for elements you want to behave like instagram sticky headers.
     
     $('.stickish-item').stickish({
-        stickies: '.CLASS_NAME_OF_THE_ELEMENT_OF_YOU_KNOW_YOU_WANT_TO'
+        sticky: '.CLASS_NAME_OF_THE_ELEMENT_OF_YOU_KNOW_YOU_WANT_TO'
     });
 
 ##Demo:
