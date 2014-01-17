@@ -7,6 +7,9 @@ Instagram Sticky Header for Web
 
 '.stickish-item' is the default class name for elements you want to behave like instagram sticky headers.
 
+```javascript
+$(document).ready(function() {
+
     // call stickish object
     $.plugin('stickish', stickish);
 
@@ -19,9 +22,14 @@ Instagram Sticky Header for Web
         inst.scrolling('.stickish-item');
     });
 
+});
+```
+
 ... and for its Basic stylesheet you can add:
 
+```html
     <link href="path_to/stickish.css" rel="stylesheet">
+```
 
 ##Demo:
 
