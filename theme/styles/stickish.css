@@ -32,20 +32,4 @@
     position: absolute;
 }
 
-.title, a {
-	color: #FFF;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #FF3C1F;
-    text-decoration: none;
-}
-
-p {
-    padding: 20px 5%;
-    font-size: 18px;
-    line-height: 21px;
-}
-
 /* END */
