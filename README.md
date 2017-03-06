@@ -3,9 +3,9 @@ Stickish
 
 Instagram Sticky Header for Web
 
-##Basic Usage:
+## Basic Usage:
 
-'.sticky' are the target elements you want to behave like instagram sticky headers.
+`.sticky` are the target elements you want to behave like instagram sticky headers.
 
 ```javascript
 $(document).ready(function() {
@@ -22,6 +22,10 @@ $(document).ready(function() {
     <link href="path_to/stickish.css" rel="stylesheet">
 ```
 
-##Demo:
+## Roadmap:
 
-[Sticky Headers](http://mugetsu.github.io/stickish/)
+- On resize re-init stickish
+
+## Demo:
+
+<a href="http://mugetsu.github.io/stickish/" target="_blank">Sample sticky headers</a>
