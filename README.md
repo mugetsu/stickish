@@ -5,22 +5,13 @@ Instagram Sticky Header for Web
 
 ##Basic Usage:
 
-'.stickish-item' is the default class name for elements you want to behave like instagram sticky headers.
+'.sticky' are the target elements you want to behave like instagram sticky headers.
 
 ```javascript
 $(document).ready(function() {
 
-    // call stickish object
-    $.plugin('stickish', stickish);
-
     // initialize plugin
-    $('.stickish-item').stickish();
-
-    // initialize methods on specific events
-    $(window).on('scroll', function() {
-        var inst = $('.stickish-item').data('stickish');
-        inst.scrolling('.stickish-item');
-    });
+    $('.sticky').stickish();
 
 });
 ```
